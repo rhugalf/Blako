@@ -1,0 +1,13 @@
+PODS:
+  - AMSlideMenu (1.5.4)
+  - GoogleMaps (1.10.1)
+
+DEPENDENCIES:
+  - AMSlideMenu (~> 1.5.4)
+  - GoogleMaps
+
+SPEC CHECKSUMS:
+  AMSlideMenu: 8571937703d2b8e187b22c1416be4cafc3532a11
+  GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
+
+COCOAPODS: 0.36.3

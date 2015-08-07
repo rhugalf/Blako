@@ -2,11 +2,11 @@
 //  AppDelegate.m
 //  Blako
 //
-//  Created by A webo putos on 13/07/15.
 //  Copyright (c) 2015 Hugo. All rights reserved.
 //
 
 #import "AppDelegate.h"
+@import GoogleMaps;
 
 @interface AppDelegate ()
 
@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [GMSServices provideAPIKey:@"AIzaSyAhzlT1llzPWVM-Er-7ElXUuQVOhW_eWac"];
+     //@"AIzaSyDtrxXexMjId15RdIHmA5HUvRJLwzgvYOg"];
+    
     return YES;
 }
 
